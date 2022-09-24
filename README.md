@@ -28,7 +28,7 @@ npm run dev
 
 ## 3. Request the endpoint: /rest/login-by-phone
 
-From SwaggerUI (at http://localhost:3001/rest-docs) test the endpoint: /rest/login-by-phone.
+From SwaggerUI (at the /rest-docs endpoint) test the endpoint: /rest/login-by-phone.
 
 With SOFA v0.12.0 (see `package.json`), this request results in the error:
 ```
