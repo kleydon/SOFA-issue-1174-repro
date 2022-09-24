@@ -44,5 +44,3 @@ request:
 ```
 
 When the SOFA version is rolled back to v0.11.2 (by editing `package.json`'s "sofa" entry, removing `package-lock.json`, and re-doing steps 1-3 above) - the request above is handled perfectly.
-
-Note: The relevant resolver for the login-by-phone endpoint is in the file: src/resolvers.ts.
