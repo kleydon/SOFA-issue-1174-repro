@@ -69,7 +69,7 @@ async function startServer() {
   app.listen(port)
 
   console.log('')
-  console.log('Server up:')
+  console.log('Server up, on port: ' + port)
   console.log('  http://localhost:' + port + gqlEndPt)
   console.log('  http://localhost:' + port + restApiBasePath)
   console.log('  http://localhost:' + port + restDocsEndPt)
