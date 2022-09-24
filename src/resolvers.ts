@@ -47,7 +47,7 @@ export class AuthResolver {
     console.log('authLoggedIn()')
     return { value: true }
   }
-  
+
   @Mutation(returns => StringPayload)
   async loginByPhone(
     @Ctx() ctx: Context,
